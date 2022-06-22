@@ -10,6 +10,9 @@ body{
         top: 4%;
         left: 30%;
     }
+    i {
+        font-size: xx-small;
+    }
 }
 @media only screen and (min-width: 600px) {
     body {
@@ -19,6 +22,9 @@ body{
         height: 10rem;
         top: 4%;
         left: 30%;
+    }
+    i {
+        font-size: xx-small;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -30,6 +36,9 @@ body{
         top: 17%;
         left: 40%;
     }
+    i {
+        font-size: x-small;
+    }
 }
 @media only screen and (min-width: 992px) {
     body {
@@ -39,6 +48,9 @@ body{
         height: 20rem;
         top: 8%;
         left: 39%;
+    }
+    i {
+        font-size: small;
     }
 }
 header{
