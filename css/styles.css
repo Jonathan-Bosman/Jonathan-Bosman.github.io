@@ -1,14 +1,35 @@
 body{
     background-color: #96C570;
 }
+#cvbackground{
+    background-color: #FFFFFF;
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    height: 42%;
+    width: 100%;
+    z-index: -1;
+}
+#row1{
+    border: 1px, solid, black;
+    width: 100%;
+}
+#row2{
+    border: 1px, solid, black;
+    width: 100%;
+}
+#row3{
+    border: 1px, solid, black;
+    width: 100%;
+    justify-content: space-between;
+}
+#row4{
+    border: 1px, solid, black;
+    width: 100%;
+}
 @media only screen and (max-width: 600px) {
     body {
         font-size: x-small;
-    }
-    img {
-        height: 10rem;
-        top: 4%;
-        left: 30%;
     }
     i {
         font-size: xx-small;
@@ -18,11 +39,6 @@ body{
     body {
         font-size: x-small;
     }
-    img {
-        height: 10rem;
-        top: 4%;
-        left: 30%;
-    }
     i {
         font-size: xx-small;
     }
@@ -30,11 +46,6 @@ body{
 @media only screen and (min-width: 768px) {
     body {
         font-size: small;
-    }
-    img {
-        height: 15rem;
-        top: 17%;
-        left: 40%;
     }
     i {
         font-size: x-small;
@@ -44,33 +55,14 @@ body{
     body {
         font-size: medium;
     }
-    img {
-        height: 20rem;
-        top: 8%;
-        left: 39%;
-    }
     i {
         font-size: small;
     }
 }
-header{
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    height: 18rem;
-}
-header ol{
+ol{
     align-self: flex-end;
     list-style-type: none;
 }
-#cvbackground{
-    height: 8rem;
-    display: flex;
-    justify-content: center;
-}
-#cvcontent{
-    display: flex;
-    justify-content: space-around;}
 .btn{
     background: none;
     border-style: none;
@@ -90,11 +82,4 @@ p{
 a{
     color: inherit;
     text-decoration: none;
-}
-img{
-    position: absolute;
-    width: auto;
-    background-color: #B3E2A8;
-    border-radius: 50%;
-    padding: 0.8%;
 }
