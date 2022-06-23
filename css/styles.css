@@ -1,7 +1,8 @@
-body{
+body {
     background-color: #96C570;
 }
-#cvbackground{
+
+#cvbackground {
     background-color: #FFFFFF;
     position: absolute;
     margin: 0px;
@@ -10,86 +11,120 @@ body{
     width: 100%;
     z-index: -1;
 }
-#row1{
+
+#row1 {
     width: 100%;
 }
-#row2{
+
+#row2 {
     border: 1px, solid, black;
     width: 100%;
 }
-#row3{
+
+#row3 {
     border: 1px, solid, black;
     width: 100%;
 }
+
 @media only screen and (max-width: 600px) {
     body {
         font-size: x-small;
     }
+
     i {
         font-size: xx-small;
     }
-    .card{
+
+    .card {
         font-size: xx-small;
     }
 }
+
 @media only screen and (min-width: 600px) {
     body {
         font-size: x-small;
     }
+
     i {
         font-size: xx-small;
     }
-    .card{
+
+    .card {
         font-size: xx-small;
     }
 }
+
 @media only screen and (min-width: 768px) {
     body {
         font-size: small;
     }
+
     i {
         font-size: x-small;
     }
-    .card{
+
+    .card {
         font-size: x-small;
     }
 }
+
 @media only screen and (min-width: 992px) {
     body {
         font-size: medium;
     }
+
     i {
         font-size: small;
     }
-    .card{
+
+    .card {
         font-size: smaller;
     }
 }
-ol{
+
+ol {
     align-self: flex-end;
     list-style-type: none;
 }
-.btn{
+
+.col-12 {
+    display: flex;
+    justify-content: right;
+}
+
+.btn {
     background: none;
     border-style: none;
     animation-iteration-count: 0;
 }
-.card{
+
+.card {
     background: none;
     border-style: none;
     width: 80%;
     text-align: justify;
 }
-.bi-caret-down-fill{
+
+.bi-caret-down-fill {
     color: black;
 }
-p{
+
+p {
     margin: 0px;
 }
+
 img {
     background-color: #b3e2a8;
     border-radius: 50%;
     padding: 2%;
     height: auto;
     width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.bi-download {
+    color: black;
 }
