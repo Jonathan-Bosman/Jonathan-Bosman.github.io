@@ -105,7 +105,8 @@ ol {
     text-align: justify;
 }
 
-.bi-caret-down-fill {
+.bi-caret-down-fill,
+.bi-download {
     color: black;
 }
 
@@ -125,6 +126,8 @@ a {
     text-decoration: none !important;
 }
 
-.bi-download {
-    color: black;
+.bi-star-fill,
+.bi-star-half,
+.bi-star {
+    color: rgb(238, 195, 53);
 }
