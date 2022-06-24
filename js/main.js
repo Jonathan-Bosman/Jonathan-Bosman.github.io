@@ -1,7 +1,6 @@
 let code = 0;
 document.addEventListener('keydown', logKey);
 function logKey(e) {
-    console.log(`${e.code}`);
     if ((`${e.code}` == "ArrowRight" && code == 5) || (`${e.code}` == "ArrowRight" && code == 7)) {
         code = code+1;
     }
