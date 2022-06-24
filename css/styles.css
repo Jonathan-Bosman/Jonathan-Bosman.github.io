@@ -1,5 +1,6 @@
 body {
     background-color: #96C570;
+    font-family: Calibri, sans-serif;
 }
 
 #cvbackground {
@@ -12,46 +13,60 @@ body {
     z-index: -1;
 }
 
-#row1, #row2, #row3 {
+#row1,
+#row2,
+#row3 {
     width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-    body {
+
+    body,
+    .bi-download {
         font-size: x-small;
     }
 
-    i, .card {
+    i,
+    .card {
         font-size: xx-small;
     }
 }
 
 @media only screen and (min-width: 600px) {
-    body {
+
+    body,
+    .bi-download {
         font-size: x-small;
     }
 
-    i, .card {
+    i,
+    .card {
         font-size: xx-small;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    body {
+
+    body,
+    .bi-download {
         font-size: small;
     }
 
-    i, .card {
+    i,
+    .card {
         font-size: x-small;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    body {
+
+    body,
+    .bi-download {
         font-size: medium;
     }
 
-    i, .card {
+    i,
+    .card {
         font-size: small;
     }
 }
@@ -79,6 +94,7 @@ ol {
     border-style: none;
     width: 80%;
     text-align: left;
+    font-style: italic;
 }
 
 .bi-caret-down-fill,
@@ -116,16 +132,29 @@ a {
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
+
 @keyframes download1 {
-    from {color: black;}
-    to {color: rgb(255, 187, 0);}
+    from {
+        color: black;
+    }
+
+    to {
+        color: rgb(255, 187, 0);
+    }
 }
+
 .bi-download:not(:hover) {
     animation: download2;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
+
 @keyframes download2 {
-    from {color: rgb(255, 187, 0);}
-    to {color: black;}
+    from {
+        color: rgb(255, 187, 0);
+    }
+
+    to {
+        color: black;
+    }
 }
